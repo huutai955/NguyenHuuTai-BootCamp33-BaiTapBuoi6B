@@ -47,11 +47,9 @@ function printSNT()
     var number = document.getElementById("input").value;
 
     // Lặp để in kết quả
-    var html = '';
     for (var i = 1; i <= number; i++) {
         if (kiem_tra_snt(i)){
-            html += i + ' ';
+            document.getElementById("result").innerHTML += i + ' ';
         }
     }
-    document.getElementById("result").innerHTML = html;
 }

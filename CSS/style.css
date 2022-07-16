@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1400px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.bai5 {
+    width: 20%;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border: 1px solid #9dfe9d;
+}
+
+input {
+    padding: 5px 15px;
+    margin-bottom: 15px;
+    border: 0.5px solid gray;
+    border-radius: 2px;
+}
+
+span {
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    background-color: #9dfe9d;
+}
+
+button {
+    margin-right: 40%;
+    padding: 15px 0;
+    background-color: green;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
